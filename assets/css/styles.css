@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7fafc;
+  font-family: "Raleway" !important;
+  font-weight: 500 !important;
+  color: #1a202c;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: fit-content;
+  z-index: 10;
+}
+
+nav.navbar {
+  background-color: rgba(6, 24, 65, 0.911) !important;
+  color: white;
+  padding: 10px 10% 10px 10% !important;
+  font-weight: bold !important;
+}
+
+nav .navbar-brand {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  color: rgba(255, 7, 7, 0.911) !important;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  margin-left: 1.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+div.medals > h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: #041b31;
+}
+
+div.card-medal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.card-medal h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.medal-img {
+  width: 150px;
+  height: 150px;
+  object-fit: center;
+  object-position: center;
+
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.carousel {
+  height: 90vh;
+}
+
+.slide:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(14, 13, 13, 0.25) 0%,
+    rgba(5, 0, 0, 0.9) 100%
+  );
+}
+
+.card {
+  height: 28rem;
+  display: flex;
+  transition: 0.3s all ease-in-out;
+}
+
+.card img {
+  height: 16rem;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+main.noticias {
+  margin-top: 6rem;
+}
